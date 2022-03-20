@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="navbar">
+        <ul>
+          <li class="navbar_content"><a href="index.html">Home</a></li>
+          <li class="navbar_content"><a href="cv.html">CV</a></li>
+          <li class="navbar_content"><a href="projects.html">Projects</a></li>
+          <li class="navbar_content">
+            <a href="#">Contact Me</a>
+          </li>
+          <li class="navbar_content"><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Contact me</h1>
+
+    <br />
+
+    <br />
+
+    <main id="main">
+      <div id="form_wrapper">
+        <form action="contactme.php" method="POST">
+          <label for="form_name">Name</label>
+          <input
+            class="form_input"
+            id="form_name"
+            type="text"
+            placeholder="Enter your name"
+            minlength="2"
+            name="form_name"
+            required
+          />
+
+          <br />
+
+          <label for="form_email">Email</label>
+          <input
+            class="form_input"
+            id="form_email"
+            type="email"
+            placeholder="Enter your email"
+            minlength="2"
+            name="form_email"
+            required
+          />
+
+          <br />
+
+          <label for="form_phone">Phone</label>
+          <input
+            class="form_input"
+            id="form_phone"
+            name="form_phone"
+            type="tel"
+            placeholder="Enter your phone"
+            required
+          />
+
+          <br />
+
+          <label for="form_note">Note</label>
+          <textarea
+            name="form_note"
+            id="form_note"
+            cols="30"
+            rows="10"
+            placeholder="Enter your note for me"
+            required
+          ></textarea>
+
+          <br />
+          <input type="submit" value="Submit" id="form_submitBtn" />
+        </form>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <a href="#header" id="to_top">Scroll to top</a>
+
+      <p id="footer_content">COPYRIGHT © 2022 Minh - RMIT UNIVERSITY</p>
+    </footer>
+  </body>
+</html>
