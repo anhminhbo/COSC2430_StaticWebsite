@@ -7,3 +7,5 @@ cv.html will be about my cv.
 projects.html will be about all my projects recently.
 contactme.html will show how you send me your contact.
 blog.html will show my blogs recently.
+
+URL to my online website: https://anhminhbo.github.io/COSC2430_StaticWebsite/
